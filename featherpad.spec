@@ -6,7 +6,9 @@ Group:		Editors
 License:	GPLv3
 URL:		https://github.com/tsujan/FeatherPad
 Source0:	https://github.com/tsujan/FeatherPad/archive/V%{version}/FeatherPad-%{version}.tar.gz
+BuildRequires:  qt5-linguist
 BuildRequires:	pkgconfig(hunspell)
+BuildRequires:  cmake(Qt5LinguistTools)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(Qt5Core)
