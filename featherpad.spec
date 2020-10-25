@@ -28,7 +28,7 @@ of any desktop environment.
 %setup -q -n FeatherPad-%{version}
 
 %build
-%cmake_qt5
+%cmake
 %make_build
 
 %install
