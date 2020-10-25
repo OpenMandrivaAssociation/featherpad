@@ -18,6 +18,7 @@ BuildRequires:	pkgconfig(Qt5PrintSupport)
 BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	pkgconfig(Qt5Svg)
 BuildRequires:	cmake
+BuildRequires:  qmake5
 
 %description
 FeatherPad (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>)
