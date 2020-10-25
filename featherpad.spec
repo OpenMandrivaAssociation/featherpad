@@ -1,7 +1,7 @@
 Name:		featherpad
 Summary:	Lightweight Qt5 Plain-Text Editor for Linux
 Version:	0.15.0
-Release:	%mkrel 1
+Release:	1
 Group:		Editors
 License:	GPLv3
 URL:		https://github.com/tsujan/FeatherPad
@@ -29,10 +29,10 @@ of any desktop environment.
 
 %build
 %cmake_qt5
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%make_install -C build
 
 %files
 %doc README.md ChangeLog NEWS
