@@ -47,4 +47,5 @@ of any desktop environment.
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/help
 %{_datadir}/%{name}/help_ja
+%{_datadir}/%{name}/help_pt_BR
 %{_datadir}/%{name}/translations/
