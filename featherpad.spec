@@ -43,6 +43,7 @@ of any desktop environment.
 %{_bindir}/%{name}
 %{_bindir}/fpad
 %{_datadir}/applications/%{name}.desktop
+%{_datadir}/metainfo/featherpad.metainfo.xml
 %{_iconsdir}/hicolor/scalable/apps/%{name}.svg
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/help
