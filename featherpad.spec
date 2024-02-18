@@ -1,27 +1,27 @@
 Name:		featherpad
-Summary:	Lightweight Qt5 Plain-Text Editor for Linux
-Version:	1.4.1
+Summary:	Lightweight Qt6 Plain-Text Editor for Linux
+Version:	1.5.0
 Release:	1
 Group:		Editors
 License:	GPLv3
 URL:		https://github.com/tsujan/FeatherPad
 Source0:	https://github.com/tsujan/FeatherPad/archive/V%{version}/FeatherPad-%{version}.tar.gz
-BuildRequires:  qt5-linguist
+
 BuildRequires:	pkgconfig(hunspell)
-BuildRequires:  cmake(Qt5LinguistTools)
+BuildRequires:  cmake(Qt6)
+BuildRequires:  cmake(Qt6LinguistTools)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)
-BuildRequires:	pkgconfig(Qt5Core)
-BuildRequires:  pkgconfig(Qt5DBus)
-BuildRequires:	pkgconfig(Qt5Gui)
-BuildRequires:	pkgconfig(Qt5Help)
-BuildRequires:	pkgconfig(Qt5Widgets)
-BuildRequires:	pkgconfig(Qt5Network)
-BuildRequires:	pkgconfig(Qt5PrintSupport)
-BuildRequires:	pkgconfig(Qt5X11Extras)
-BuildRequires:	pkgconfig(Qt5Svg)
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:  cmake(Qt6DBus)
+BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6Help)
+BuildRequires:	cmake(Qt6Widgets)
+BuildRequires:	cmake(Qt6Network)
+BuildRequires:	cmake(Qt6PrintSupport)
+BuildRequires:	cmake(Qt6Svg)
 BuildRequires:	cmake
-BuildRequires:  qmake5
+BuildRequires:  qmake-qt6
 
 %description
 FeatherPad (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>)
