@@ -1,6 +1,6 @@
 Name:		featherpad
 Summary:	Lightweight Qt6 Plain-Text Editor for Linux
-Version:	1.5.1
+Version:	1.5.2
 Release:	1
 Group:		Editors
 License:	GPLv3
