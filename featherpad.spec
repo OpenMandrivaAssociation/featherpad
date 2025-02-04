@@ -48,7 +48,4 @@ of any desktop environment.
 %{_iconsdir}/hicolor/scalable/apps/%{name}.svg
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/help
-%{_datadir}/%{name}/help_ca
-%{_datadir}/%{name}/help_ja
-%{_datadir}/%{name}/help_pt_BR
 %{_datadir}/%{name}/translations/
