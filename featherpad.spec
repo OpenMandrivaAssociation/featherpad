@@ -22,6 +22,7 @@ BuildRequires:	cmake(Qt6PrintSupport)
 BuildRequires:	cmake(Qt6Svg)
 BuildRequires:	cmake
 BuildRequires:  qmake-qt6
+BuildRequires:  make
 
 %description
 FeatherPad (by Pedram Pourang, a.k.a. Tsu Jan <tsujan2000@gmail.com>)
